@@ -3,3 +3,5 @@ __pycache__/
 *~
 *.sqlite3
 {{ project_name }}/settings/local.py
+var/media/*
+var/static/*
