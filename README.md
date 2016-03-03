@@ -65,7 +65,7 @@ Creating a new app
 Sadly, a bit more complicated than with vanilla template :
 
     mkdir {{ project_name }}/apps/<app_name>
-    ./manage.py startapp app_name> {{ project_name }}/apps/<app_name>
+    ./manage.py startapp <app_name> {{ project_name }}/apps/<app_name>
 
 And add `{{ project_name }}.apps.<app_name>` to your `INSTALLED_APPS`.
 
